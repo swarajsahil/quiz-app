@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <button class="start">Start Quiz</button>
+        <div class="box">
+    <h1 class="heading">Quiz Guide</h1>
+    <ol class="instructions">
+    <li class="instruc1">You have only 20 seconds for each questions.</li>
+    <li class="instruc2">Once you select Your answer it can't be undone.</li>
+    <li class="instruc3">you will get points on the basic of your correct answers.</li>
+    <li class="instruc4">Ypu can't exit from the quiz while you are playing.</li></ol>
+    <div class="action-btn">
+        <button class="exit">Exit</button>
+        <button class="continue">Continue</button>
+    </div>
+        </div>
+        <div class="item">
+            <div class="top">
+                <h3 class="head">Amazing Quiz App</h3>
+                <div class="time">
+                    <p class="time-text">Time left</p>
+                    <span class="time-left">00</span>
+                </div>
+            </div>
+            <h4 class="question"></h4>
+            <ul class="option">
+            <li id="option1" class="opt"></li>
+            <li id="option2" class="opt"></li>
+            <li id="option3" class="opt"></li>
+            <li id="option4" class="opt"></li></ul>
+            <div class="bott">
+                <p class="correct-count"></p>
+                <button class="next">Next</button>
+            </div>
+        </div>
+        <div class="result">
+            <img src="trophy.svg" alt="Trophy" class="winning-logo">
+            <p class="points"> 1 out of 10 Questions</p>
+            <button class="quit">Quit quiz</button>
+            <button class="start-again">Start Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
